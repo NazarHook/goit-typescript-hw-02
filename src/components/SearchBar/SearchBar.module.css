@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.searchField{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+}
+.searchField::placeholder{
+    padding-left: 12px;
+}
+.searchBtn{
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
